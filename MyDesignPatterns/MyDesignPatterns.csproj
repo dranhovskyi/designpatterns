@@ -43,6 +43,9 @@
     <Compile Include="Behavioural\State.cs" />
     <Compile Include="Behavioural\Strategy.cs" />
     <Compile Include="Behavioural\TemplatedMethod.cs" />
+    <Compile Include="Structural\Adapter.cs" />
+    <Compile Include="Structural\Decorator.cs" />
+    <Compile Include="Structural\Facade.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Structural\" />

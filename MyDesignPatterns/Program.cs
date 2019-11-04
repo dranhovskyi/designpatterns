@@ -1,4 +1,8 @@
-﻿using MyDesignPatterns.Behavioural;
+﻿using System.Collections.Generic;
+using System.Linq;
+using MyDesignPatterns.Behavioural;
+using MyDesignPatterns.Creational;
+using MyDesignPatterns.Structural;
 
 namespace MyDesignPatterns
 {
@@ -17,7 +21,11 @@ namespace MyDesignPatterns
             //ObserverDemo.Run();
             //StateDemo.Run();
             //StrategyDemo.Run();
-            TemplatedMethodDemo.Run();
+            //TemplatedMethodDemo.Run();
+
+            //AdapterDemo.Run();
+            //DecoratorDemo.Run();
+            FacadeDemo.Run();
         }
     }
 }
