@@ -32,6 +32,22 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Creational\AbstractFactory.cs" />
+    <Compile Include="Creational\Builder.cs" />
+    <Compile Include="Creational\FactoryMethod.cs" />
+    <Compile Include="Creational\Prototype.cs" />
+    <Compile Include="Creational\Singleton.cs" />
+    <Compile Include="Behavioural\ChainOfResponsibility.cs" />
+    <Compile Include="Behavioural\Command.cs" />
+    <Compile Include="Behavioural\Observer.cs" />
+    <Compile Include="Behavioural\State.cs" />
+    <Compile Include="Behavioural\Strategy.cs" />
+    <Compile Include="Behavioural\TemplatedMethod.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Structural\" />
+    <Folder Include="Behavioural\" />
+    <Folder Include="Creational\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
